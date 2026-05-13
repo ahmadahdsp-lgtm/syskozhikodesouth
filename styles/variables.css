@@ -1,0 +1,52 @@
+/* Color Palette Variables */
+:root {
+  /* Primary */
+  --color-primary-dark: #0f3d2e; /* Deep Forest Green */
+  --color-primary: #14533e;
+  --color-primary-light: #1c7256;
+  
+  /* Secondary/Accent */
+  --color-accent: #f5b041; /* Golden Yellow */
+  --color-accent-light: #fad7a1;
+  --color-accent-dark: #d68910;
+  
+  /* Neutral / Backgrounds */
+  --color-white: #ffffff;
+  --color-off-white: #f8f9fa;
+  --color-light-gray: #e9ecef;
+  
+  /* Text */
+  --color-text-main: #212529; /* Dark Charcoal */
+  --color-text-muted: #6c757d;
+  --color-text-light: #ffffff;
+
+  /* Typography */
+  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 5rem;
+  --spacing-4xl: 8rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 250ms ease-in-out;
+  --transition-slow: 400ms ease-in-out;
+}
